@@ -1,8 +1,9 @@
 {
 	//"include": ["src/**/*", "api/**/*"],
-	"exclude": ["api/**/*"],
+	//"exclude": ["api/**/*"],
 	"compilerOptions": {
 		"plugins": [{ "name": "@effect/language-service" }],
+		"esModuleInterop": true,
 
 		// Environment setup & latest features
 		"lib": ["ESNext"],
