@@ -10,7 +10,7 @@
 		"check": "tsc --noEmit",
 		"lint": "eslint .",
 		"clean": "rm -rf node_modules && echo 'Done.'",
-		"build": "bun build ./src/index.ts --outdir ./api"
+		"build": "bun build ./src/index.ts --outdir ./public"
 	},
 	"devDependencies": {
 		"@effect/language-service": "^0.73.1",
