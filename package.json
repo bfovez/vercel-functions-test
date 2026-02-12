@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "preinstall": "npx only-allow bun",
     "prepare": "effect-language-service patch",
     "format": "prettier --write .",
+    "check": "tsc --noEmit",
     "lint": "eslint .",
-    "clean:all": "bunx rimraf --glob **/node_modules"
+    "clean": "rm -rf node_modules && echo 'Done.'"
   },
   "devDependencies": {
     "@effect/language-service": "^0.73.1",
