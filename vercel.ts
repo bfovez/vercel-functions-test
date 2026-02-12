@@ -4,5 +4,6 @@ export const config: VercelConfig = {
 	regions: ["cdg1"],
 	//rewrites: [routes.rewrite("/api/(.*)", "/api")],
 	rewrites: [routes.rewrite("/api/(.*)", "/")],
+	outputDirectory: "/api",
 	buildCommand: "bun run build"
 }
