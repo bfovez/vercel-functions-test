@@ -1,10 +1,12 @@
 {
-	//"include": ["src/**/*", "api/**/*"],
-	"include": ["api/**/*"],
+	"include": ["src/**/*", "api/**/*"],
+
+	//"include": ["api/**/*"],
 	//"exclude": ["api/**/*"],
 	"compilerOptions": {
 		"plugins": [{ "name": "@effect/language-service" }],
 		"esModuleInterop": true,
+		"outDir": "./api",
 
 		// Environment setup & latest features
 		"lib": ["ESNext"],
@@ -17,9 +19,9 @@
 
 		// Bundler mode
 		"moduleResolution": "bundler",
-		"allowImportingTsExtensions": true,
+		//"allowImportingTsExtensions": true,
 		"verbatimModuleSyntax": true,
-		"noEmit": true,
+		//"noEmit": true,
 
 		// Best practices
 		"strict": true,
