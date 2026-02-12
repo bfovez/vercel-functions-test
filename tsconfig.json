@@ -1,5 +1,6 @@
 {
-	"include": ["src/**/*", "api/**/*"],
+	//"include": ["src/**/*", "api/**/*"],
+	"exclude": ["api/**/*"],
 	"compilerOptions": {
 		"plugins": [{ "name": "@effect/language-service" }],
 
