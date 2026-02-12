@@ -7,4 +7,5 @@ export const config: VercelConfig = {
 	//functions: { "api/index.js": { supportsCancellation: true } },
 	//outputDirectory: "/api",
 	//buildCommand: "bun run build"
+	outputDirectory: "api"
 }
