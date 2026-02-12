@@ -1,0 +1,12 @@
+#  Prettier use .gitignore, no need to repeat the same files
+node_modules
+.env
+.env.*
+!.env.example
+
+# Ignore files for package managers
+pnpm-lock.yaml
+pnpm-workspace.yaml
+package-lock.json
+yarn.lock
+bun.lock
