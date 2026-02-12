@@ -7,6 +7,6 @@
     }
   ],
   "functions": {
-    "api/*": { "supportsCancellation": true }
+    "api/*": { "supportsCancellation": true  }
   }
 }
