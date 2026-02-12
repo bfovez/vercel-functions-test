@@ -1,7 +1,5 @@
 {
-  "regions": [
-    "iad1"
-  ],
+  "regions": ["iad1"],
   "rewrites": [
     {
       "source": "/api/(.*)",
@@ -9,8 +7,6 @@
     }
   ],
   "functions": {
-    "api/*": {
-      "supportsCancellation": true
-    }
+    "api/*": { "supportsCancellation": true }
   }
 }
